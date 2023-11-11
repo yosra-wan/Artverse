@@ -10,6 +10,7 @@ import { catchError, map, tap } from "rxjs/operators";
 @Injectable({
   providedIn: "root",
 })
+
 export class AuthentificationService {
   // public user: Observable<any>;
   // private userData = new BehaviorSubject(null);
