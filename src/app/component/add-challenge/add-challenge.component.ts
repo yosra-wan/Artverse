@@ -97,6 +97,11 @@ export class AddChallengeComponent implements OnInit {
 
   }
 
- 
+
+  deletePubliction(id : any ){
+
+
+
+  }
 
 }
