@@ -75,7 +75,6 @@ export class ProfileComponent implements OnInit {
     this.countVueProject = message;
     this.ref.detectChanges();
   }
-
   async getPubliction() {
     this.publicationService.getPost().subscribe(async (data) => {
       this.List = await data;
